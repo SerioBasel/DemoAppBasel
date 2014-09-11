@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoAppBasel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Info</string>
+    <string name="title_activity_blog">MainActivity</string>
+    <string name="title_activity_blogreader">MainActivity</string>
+    <string name="title_activity_blog_reader">BlogReader</string>
+    <string name="No_Items">Items Not Available!</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_compass">CompassActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="activity_info">Activity Info.</string>
+    <string name="ok">Ok</string>
+    <string name="about_main_activity">Thanks for downloading my demo app. please click on one of the image buttons to open an activity.</string>
+    <string name="about_fragment_activity">This activity contains two fragments with different background colors, fragments should communicate and maintain list position on rotation change</string>
+    <string name="about_compass_activity">Using the accelerometer and magnetic in a rotational matrix to calculate the Azimuth, the image is rotated to point north using rotate animation</string>
+    <string name="about_broadcast_activity">After the set button is clicked, the alarm manager will trigger a broadcast receiver after the entered number of seconds, the receiver will start a service to play a song in the background</string>
+	    <string name="about_blogreader_activity">using async task method to download the json data for a blog, and integrate into a clickable list</string>
+    
+    <string-array name="titles">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>Content Providers</item>
+        <item>Intents and Intents Filters</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>An Activity is an application component that provides a screen with which users can interact in order to do something, such as dial the phone, take a photo, send an email, or view a map. Each activity is given a window in which to draw its user interface. The window typically fills the screen, but may be smaller than the screen and float on top of other windows.</item>
+        <item>A Service is an application component that can perform long-running operations in the background and does not provide a user interface. Another application component can start a service and it will continue to run in the background even if the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service might handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.</item>
+        <item>Content providers manage access to a structured set of data. They encapsulate the data, and provide mechanisms for defining data security. Content providers are the standard interface that connects data in one process with code running in another process.When you want to access data in a content provider</item>
+        <item>When you create an implicit intent, the Android system finds the appropriate component to start by comparing the contents of the intent to the intent filters declared in the manifest file of other apps on the device. If the intent matches an intent filter</item>
+    </string-array>
+
+    <string name="title_activity_broadcast_service">BroadcastServiceActivity</string>
+
+    <string name="stop">Stop</string>
+
+    <string name="set">Set</string>
+
+    <string name="enter_time_in_seconds">Enter Time in Seconds</string>
+
+    <string name="fragment_two">fragment two</string>
+
+    <string name="broadcasts_receiver">Broadcasts Receiver</string>
+
+    <string name="fragments">Fragments</string>
+
+    <string name="compass">Compass</string>
+
+    <string name="web_services">Web Services</string>
+
+</resources>
